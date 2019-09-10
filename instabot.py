@@ -39,6 +39,6 @@ class InstaBot:
                     time.sleep(5)
                 except Exception as e:
                     print("cannot like")
-ob = InstaBot('the_holycoder', 'makhalamdang12')
+ob = InstaBot('username', 'password')
 ob.login()
 ob.likePost('javascript')
